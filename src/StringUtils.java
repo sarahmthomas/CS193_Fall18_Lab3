@@ -10,11 +10,11 @@ public class StringUtils {
     }
 
     /**
-     * makePurdueUsername -- 7-letter-long username creator
+     * makePurdueUsername -- 7-letter-long lowercase username creator
      * Usernames may be at most 7 letters in length, and should
      * consist of the first letter of one's first name, and the 
      * amount of their last name that will fit into the remaining
-     * 6 characters.
+     * 6 characters. All should be lowercase.
      * Ex: a = "Sean ", b = "Flannery", returns "sflanner"
      */
     public static String makePurdueUsername(String firstName, String lastName) {
