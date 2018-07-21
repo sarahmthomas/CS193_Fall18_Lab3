@@ -12,15 +12,16 @@ public class MathUtils {
      * raiseToPower -- (base)^(exp)
      * Raise the number base to power exp
      */
-    public int raiseToPower(int base, int exp) {
+    public float raiseToPower(int base, int exp) {
         int res = base;
         for (int i = 0; i < exp; i++) {
            res *= base; 
         }
         // If it's a negative exponent invert it
         if (exp < 0) {
-            res = divideNumbers(1, res);
+            return divideNumbers(1, res);
+        } else {
+            return res;
         }
-        return res; 
     }    
 }
