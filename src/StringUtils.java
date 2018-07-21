@@ -1,37 +1,27 @@
 public class StringUtils {
     /**
-     * combineStrings -- a + b
-     * Concatenate String a to String b 
-     * Ex: a = "Hello ", b = "World!", returns "Hello World!"
-     */
-    public static String combineStrings(String a, String b) {
-        String res = a + b;
-        return res;
-    }
-
-    /**
-     * makePurdueUsername -- 7-letter-long lowercase username creator
-     * Usernames may be at most 7 letters in length, and should
+     * makePurdueUsername -- <= 8-letter-long lowercase username creator
+     * Usernames may be AT MOST 8 letters in length, and should
      * consist of the first letter of one's first name, and the 
      * amount of their last name that will fit into the remaining
-     * 6 characters. All should be lowercase.
+     * 7 characters. All should be lowercase.
      * Ex: a = "Sean ", b = "Flannery", returns "sflanner"
      */
     public static String makePurdueUsername(String firstName, String lastName) {
-        String res = combineStrings(firstName.substring(0,1), lastName);
-        res.substring(0, 7);
+        String res = firstName.substring(0,1) + lastName;
+        res.substring(0, 8);
         res.toLowerCase();
         return res;
     }
 
     /**
-     * redactStudentUsername -- replace student usernames in sensitive text
-     * We want to make sure student information is redacted from sensitive
+     * replaceStudentUsername -- replace student usernames in sensitive text
+     * We want to make sure student information is expundged from sensitive
      * documents as much as possible. 
      * Ex: text = "jframes was among the students whose SSNs were leaked.",
-     * username = "[REDACTED] was among the students whose SSNs were leaked.",
+     * username = "[DATA EXPUNDGED] was among the students whose SSNs were leaked.",
      */
-    public static String redactStudentUsername(String text, String username) {
-        return text.replace(username, "[REDACTED]");
+    public static String replaceStudentUsername(String text, String username) {
+        return text.replaceAll(username, "[DATA EXPUNDGED]");
     }
 }
