@@ -10,7 +10,6 @@ In this lab you will learn some of the fundamentals of debugging your code, as w
 
 ### Step 2 - "One person’s crappy software is another person’s full time job."
 
-
 ### Step 3 - 
 
 Sometimes, it's as simple as flipping a boolean! (You know what they say about
