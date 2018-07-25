@@ -75,7 +75,9 @@ A favorite quote from that article that you should definitely adhere to is:
 >"Don't put any lines in your vimrc that you don't understand."
 
 
-###1.2: 
+###1.2: Integrated Development Environments
+
+
 
 ## Part 2: Debugging Tools - "The most effective debugging tool is still careful thought, coupled with judiciously placed print statements."
 
