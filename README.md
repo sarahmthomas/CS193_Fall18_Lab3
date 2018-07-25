@@ -28,8 +28,7 @@ There are a few tried and true methods to learn Vim:
 #### "The Vim Tutor!"
 Enter a terminal environment where you have Vim installed (most UNIX-based systems like Linux, Mac, and Windows computers have it pre-installed).
 
-Once you're in the shell, type just this command:
->vimtutor
+Once you're in the shell, type `vimtutor`.
 
 The file will walk you through everything! Work through the tutorial and don't worry if it doesn't all click right away.
 
@@ -52,15 +51,14 @@ From the tutorials above, you should have learned about how Vim enables commands
 However, some commands you don't want to have to type _every time_. 
 
 For example, it's pretty normal to want line numbers whenever you open a file (for debugging/readability), BUT having to type 
->`:set number`
-every time you run Vim is a huge time suck! How can we avoid this.
+`:set number` every time you run Vim is a huge time suck! How can we avoid this.
 
 Well, your .vimrc (Vim Run Control) file controls what commands run when vim is invoked, and you can customize it to your heart's content. These commands are run _every time you open a new file_.
 
 #### Add Line Numbers
 
-We recommend you use Vim to add the following command to your .vimrc file located in your home directory (~/.vimrc).
->`vim ~/.vimrc`
+We recommend you use Vim to add the following command to your .vimrc file located in your home directory (~/.vimrc): `vim ~/.vimrc`
+
 Add the text `set number` to the file, and save it!
 
 Next time you open any file, you should see line numbers!
