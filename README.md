@@ -38,6 +38,9 @@ It's a lot more interactive than vimtutor, and offers a more comfortable environ
 
 Run through the tutorials on the website to get a solid grasp of vim, and bookmark it in case you forget!
 
+####Vim Cheat Sheet
+Finally, if you ever need to quickly check what Vim commands are available (or if you'd like to expand your Vim vocabulary), check out this cheat sheet: https://vim.rtorr.com/[https://vim.rtorr.com/]
+
 ###1.1.2: A solid ~/.vimrc goes a long way
 
 
