@@ -14,17 +14,17 @@ One way to ensure this is to configure your tools to the ideal settings, and to
 take advantage of *YEARS* of gathered knowledge from the generations of computer 
 scientists/developers who preceded you. 
 
-###1.1: Text Editors
+### 1.1: Text Editors
 
->"If our colleges and universities do not breed men who riot, who rebel, who attack life with all the youthful *vim* and vigor, then there is something wrong with our colleges"
+>"If our colleges and universities do not breed people who riot, who rebel, who attack life with all the youthful **vim** and vigor, then there is something wrong with our colleges"
 
-###1.1.1: Know your commands! 
+### 1.1.1: Know your commands! 
 Vim's commands are unconventional, but were created with the purpose of making your life easy by making the text editing process as streamlined as possible. The purpose of Vim is to minimize time wasted scrolling, using the arrow keys, and moving from the keyboard to the mouse to navigate a file. 
 This may seem like a bit of overkill, but you would be amazed just how much of your valuable time you will save as a developer if you become a vim power-user. 
 
 There are a few tried and true methods to learn vim:
 
-####"The Vim Tutor!"
+#### "The Vim Tutor!"
 Enter a terminal environment where you have Vim installed (most UNIX-based systems like Linux, Mac, and Windows computers have it pre-installed).
 
 Once you're in the shell, type just this command:
@@ -32,19 +32,19 @@ Once you're in the shell, type just this command:
 
 Once you've entered the file, start reading and it'll walk you through everything! I recommend working through the whole file, and don't worry if you don't understand it all right away.
 
-####OpenVim
+#### OpenVim
 One great online services available to learn about Vim is an online tool called [OpenVim.com](https://OpenVim.com).
 
 It's a lot more interactive than vimtutor, and offers a more comfortable environment to practice in.
 
 Run through the tutorials on the website to get a solid grasp of vim, and bookmark it in case you forget!
 
-####Vim Cheat Sheet
+#### Vim Cheat Sheet
 Finally, if you ever need to quickly check what Vim commands are available (or if you'd like to expand your Vim vocabulary), check out these cheat sheets: 
 - [https://vim.rtorr.com/](https://vim.rtorr.com/)
 - [http://vimsheet.com/](http://vimsheet.com/)
 
-###1.1.2: A solid .vimrc goes a long way
+### 1.1.2: A solid .vimrc goes a long way
 #### What's the use of a .vimrc?
 From the tutorials above, you should have learned about how Vim alleys you enter commands by typing colon ":" followed by your command.
 
@@ -75,7 +75,7 @@ A favorite quote from that article that you should definitely adhere to is:
 >"Don't put any lines in your vimrc that you don't understand."
 
 
-###1.2: Integrated Development Environments
+### 1.2: Integrated Development Environments
 
 
 
