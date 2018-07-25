@@ -22,7 +22,8 @@ scientists/developers who preceded you.
 Vim's commands are unconventional, but were created with the purpose of making your life easy by making the text editing process as streamlined as possible. The purpose of Vim is to minimize time wasted scrolling, using the arrow keys, and moving from the keyboard to the mouse to navigate a file. 
 This may seem like a bit of overkill, but you would be amazed just how much of your valuable time you will save as a developer if you become a vim power-user. 
 
-There are a few tried and true methods to learn vim
+There are a few tried and true methods to learn vim:
+
 ####"The Vim Tutor!"
 Enter a terminal environment where you have Vim installed (most UNIX-based systems like Linux, Mac, and Windows computers have it pre-installed).
 
@@ -39,7 +40,9 @@ It's a lot more interactive than vimtutor, and offers a more comfortable environ
 Run through the tutorials on the website to get a solid grasp of vim, and bookmark it in case you forget!
 
 ####Vim Cheat Sheet
-Finally, if you ever need to quickly check what Vim commands are available (or if you'd like to expand your Vim vocabulary), check out this cheat sheet: https://vim.rtorr.com/[https://vim.rtorr.com/]
+Finally, if you ever need to quickly check what Vim commands are available (or if you'd like to expand your Vim vocabulary), check out these cheat sheets: 
+- https://vim.rtorr.com/[https://vim.rtorr.com/]
+- http://vimsheet.com/[http://vimsheet.com/]
 
 ###1.1.2: A solid ~/.vimrc goes a long way
 
