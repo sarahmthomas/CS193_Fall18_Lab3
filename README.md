@@ -23,7 +23,7 @@
 
   Text Editors (such as **Vim**, Pluma, nano, and ... ~~GNU Emacs~~) are very general in their abilities:
   - You can read nearly any file BUT most this means you are forced to be generic
-  - They typically have a minimalistic design that enables  
+  - They typically have a minimalistic design that minimizes CPU/Memory Impact
 
   For this course, we have decided to introduce the versatile Vim text editor.
 
