@@ -215,7 +215,7 @@ The naive answer would be to say you need only **10 fenceposts**, when in realit
 
 Just like in that problem, we forgot to include the 0th index in our bounds. 
 
-####*Note on "The Wolf Fence Algorithm"*:
+#### *Note on "The Wolf Fence Algorithm"*:
 Imagine you were given the task of finding the only wolf in Alaska! 
 That is a massive amount of area to cover; some might say even a lifetime isn't enough to take it all in.
 However, if you're smart, you'd use the concept of the "wolf fence" to figure out the approximate location
