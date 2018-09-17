@@ -143,7 +143,7 @@ An Integrated Development Environment (IDE) describes applications that contain:
   Let's look at some of the issues we might have here, and figure out how we'd
   address them. 
 
-  1) >"My results in the results list are incorrect! They just read '0,1,2,3...,N'!"
+  1) >"My results in the results_list are incorrect! They just read '0,1,2,3...,N'!"
   
 "The answer is wrong" is an often-repeated and uncomfortably-broad statement
 that we've all made in the past. Rather than just scrapping everything and
