@@ -1,11 +1,11 @@
-# CS 193 Lab 3 - Debugging, IntelliJ, & Vim
+# CS 193 Lab 3 - Vim, IntelliJ, & Debugging
 ![](./images/debug_meme.png)
 
   In this lab you will learn some of the fundamentals of **debugging** your code, 
   as well as some of the **tools** you have at hand in 2 applications you'll be 
   using a LOT in your CS Career:
   - **Vim** (Text Editor)
-- **IntelliJ IDE** (Integrated Development Environment)
+  - **IntelliJ IDE** (Integrated Development Environment)
 
 ## Part 1: Setup - "You can't build a great building on a weak foundation"
 
@@ -14,14 +14,14 @@
   One way to ensure this is to configure your tools to the ideal settings, and to
   take advantage of *YEARS* of gathered knowledge from the generations of computer 
   scientists/developers who preceded you. This wisdom can be found in textbooks,
-  forums like reddit, and in conversations with peers. 
+  forums like Reddit, and in conversations with peers. 
 
   One of the most tangible outcomes of people wanting to streamline the process
   of writing code is the creation of the Text Editor.   
 
 ### 1.1: Text Editors
 
-  Text Editors (such as **Vim**, Notepad++, and ... ~~GNU Emacs~~) are very general in their abilities:
+  Text Editors (such as **Vim**, Pluma, nano, and ... ~~GNU Emacs~~) are very general in their abilities:
   - You can read nearly any file BUT most this means you are forced to be generic
   - They typically have a minimalistic design that enables  
 
@@ -46,10 +46,12 @@
 
   Once you're in the shell, type `vimtutor`.
 
-  The file will walk you through everything! Work through the tutorial and don't worry if it doesn't all click right away.
+  The file will walk you through everything you need to know about Vim! 
+  
+  While useful, a more recent (and better-looking) learning tool is out there...
 
 #### OpenVim
-  One great open-source tool to learn about Vim is called [OpenVim.com](https://OpenVim.com).
+  This great open-source tool for Vim-learning is called [OpenVim.com](https://OpenVim.com).
 
   It's a lot more interactive than `vimtutor`, and offers a more comfortable (and pretty) environment to practice in.
 
@@ -99,27 +101,22 @@ An Integrated Development Environment (IDE) describes applications that contain:
 - Version Control System integration (track projects from Git and submit commit
     messages!)
 - Build automation tools (for when your project scales pretty far)
-  - Some form of *Debugging Tools*!
+- Some form of *Debugging Tools*!
 
   Companies like JetBrains have developed extensive IDEs for different types of 
   languages ([PyCharm](https://www.jetbrains.com/pycharm/) for Python, [IntelliJ IDEA](https://www.jetbrains.com/student/) for Java), 
   as well as different tasks (DataGrip for Databases, AppCode for iOS Development).
-
-  [IntelliJ IDEA](https://www.jetbrains.com/student/), 
-  [Eclipse](https://www.eclipse.org/downloads/), and []()
-
+  
   For those of you in CS180, we expect that you have some very basic familiarity
   with the IntelliJ platform.
 
   In the event that you haven't encountered this platform yet, or just need a
-  refresher, run through this link:  
-
+  refresher, run through this link: TODO
 
 ## Part 2: Debugging Methods
 ![](./images/print_statements_meme.png)
 
-*Just because something OUGHT to work, does not mean it will. Always question any assumptions
-or claims made about how code behaves!*
+
 
 ### 2.1: "The most effective debugging tool is still careful thought, coupled with judiciously placed print statements."
   One of the most old-fashioned, yet effective, methods of debugging is **print
@@ -147,10 +144,11 @@ or claims made about how code behaves!*
   address them. 
 
   1) >"My results in the results list are incorrect! They just read '0,1,2,3...,N'!"
-  "The answer is wrong" is an often-repeated and uncomfortably-broad statement
-  that we've all made in the past. Rather than just scrapping everything and
-  restarting, let's dive a bit deeper and try to find out what our results are
-  in-between!
+  
+"The answer is wrong" is an often-repeated and uncomfortably-broad statement
+that we've all made in the past. Rather than just scrapping everything and
+restarting, let's dive a bit deeper and try to find out what our results are
+in-between!
 
   ```
   int n := 99
@@ -179,7 +177,7 @@ or claims made about how code behaves!*
   Result after func3: 2
   . . . 
   ```
-
+  
   Through these print statements, we've realized an error: *We forgot to store
 the result after we performed mathematical operations!"*
 
@@ -246,23 +244,48 @@ about Log20, a tool that determines a near optimal placement of log printing sta
 
 
 ### 2.2: "Dr. Strangebug" or "How I Learned to Stop Worrying and Love the IntelliJ Debugger"
+While print statements are absolutely useful for isolating a problem, debugging can still
+be quite difficult and scale poorly. Nothing is more difficult to sift through than 2KB of
+log files or output text when all you needed to do was step through your code a bit to determine
+what was wrong.
 
+*In an ideal world, we'd want to be able to walk through our code step-by-step, and figure out
+what's going on DURING execution...*
 
+#### INTRODUCING: THE INTELLIJ DEBUGGER!
+The IntelliJ Debugger allows you to:
+- Step through the execution of a program line-by-line
+- Set *breakpoints* at important sections of code
+    - Execution will pause at the breakpoint
+    - You may either *step* through execution or *continue* to the next breakpoint
+- Track the value of variables throughout execution & check if they are modified 
 
+The TAs in your lab section may have given a short overview of the debugger, but if you're still
+having a hard time, visit [this link](https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html)
+
+If you have other questions, don't hesitate to ask your TAs, use Google, or use IntelliJ's own
+Tip Center!
 
 ## Part 3: The Scenario - "One person’s crappy software is another person’s full time job."
-  Picture this: You land a great internship as a Freshman thanks to all the skills
-  you learned in CS193, and are put to the task of picking up where last year's 
-  IU intern left off. 
+Picture this: You land a great internship as a Freshman thanks to all the skills
+you learned in CS193, and are put to the task of picking up where last year's 
+IU intern left off. 
 
-  Needless to say, they've left a mess of things. It's up to you to identify what's wrong with their code! 
+Needless to say, they've left a mess of things. It's up to you to identify what's wrong with their code! 
 
-## Part 4: Sleuthing for Bugs - "Beware of bugs in the above code; I have only proved it correct, not tried it."
+### 3.1: Sleuthing for Bugs - "Beware of bugs in the above code; I have only proved it correct, not tried it."
+You will be expected to find several bugs throughout the files *MathUtils.java* and *StringUtils.java*.
+All test cases should pass for your to receive full points. 
 
-### 4.1:  
+You should use multiple methods to determine what's wrong:
+- JUnit Test Cases -- Try running them individually and debugging them in isolation!
+- Print Statements after writing examples in *BuggyUtilClient.java*
+- Reading through the code to see if it makes sense
 
-## Part 5: Submit Working Code - "Talk is cheap. Show me the code."
+### 3.2: Submit Working Code - "Talk is cheap. Show me the code."
+You should submit code that passes all test cases! 
 
-## Optional Extra - Customize your .vimrc with new features!
+*REMEMBER: Just because something OUGHT to work, does not mean it will. Always question any assumptions
+or claims made about how code behaves!*
 
 
