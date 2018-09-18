@@ -73,7 +73,7 @@
 
   Well, your .vimrc (Vim Run Control) file controls what commands run when vim is invoked, and you can customize it to your heart's content. These commands are run _every time you open a new file_.
 
-#### Add Line Numbers
+#### TODO: Add Line Numbers
 
   We recommend you use Vim to add the following command to your .vimrc file located in your home directory (~/.vimrc): `vim ~/.vimrc`
 
@@ -83,7 +83,7 @@ Next time you open any file, you should see line numbers!
 
 You can disable this at any time within a file by typing `:set nonumber` within Vim, or by deleting it from your .vimrc and then re-opening Vim again.
 
-#### Add your own commands!
+#### TODO: Add your own commands!
 As you can imagine, there are thousands of commands you can leverage in your .vimrc file, and there's even more people who have their own custom .vimrc they think you should use. 
 
 We want you to add _at least_ *3 more commands* to your .vimrc file, and turn it in.
@@ -270,8 +270,18 @@ IU intern left off.
 
 Needless to say, they've left a mess of things. It's up to you to identify what's wrong with their code! 
 
-### 3.1: Sleuthing for Bugs - "Beware of bugs in the above code; I have only proved it correct, not tried it."
-You will be expected to find several bugs throughout the files *MathUtils.java* and *StringUtils.java*.
+### 3.1: Check out this repository from version control
+Without getting too deep into the commands of git, we want to "clone" our repository and edit it locally
+like any other file (if you are interested, [check out this guide](http://rogerdudler.github.io/git-guide/) 
+
+IntelliJ has a great deal of support for exactly this! We can store a local version of our repository, and 
+push any changes to the remote repo easily!
+
+//TODO: Add this info
+
+### 3.2: Sleuthing for Bugs - "Beware of bugs in the above code; I have only proved it correct, not tried it."
+#### Pulling the repository from Version Control using IntelliJ
+*TODO:* You will be expected to find several bugs throughout the files *MathUtils.java* and *StringUtils.java*.
 All test cases should pass for your to receive full points. 
 
 You should use multiple methods to determine what's wrong:
@@ -279,10 +289,14 @@ You should use multiple methods to determine what's wrong:
 - Print Statements after writing examples in *BuggyUtilClient.java*
 - Reading through the code to see if it makes sense
 
-### 3.2: Submit Working Code - "Talk is cheap. Show me the code."
-You should submit code that passes all test cases! 
+### 3.3: Submit Working Code - "Talk is cheap. Show me the code."
+*TODO:* You should submit code that passes all test cases! 
 
 *REMEMBER: Just because something OUGHT to work, does not mean it will. Always question any assumptions
 or claims made about how code behaves!*
 
+## TODO -- What needs to get done for this project
+- Add 3 commands to your ~/.vimrc file
+- Pull Git Repository into IntelliJ
+- Submit code that passes all test cases to master branch
 
