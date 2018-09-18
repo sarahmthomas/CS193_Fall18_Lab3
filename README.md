@@ -377,12 +377,16 @@ You can run all test cases by right clicking the test case file.
 You can also isolate a single test case and run only that one by right-clicking it.
 
 ![](./images/test-run-one.png)
+
+This results in:
+
 ![](./images/test-run-one-result.png)
 
 4) Find the line where it goes wrong
 
 Once the test case fails, you can pinpoint the exact issue by double-clicking the failed
-case. After that, you should see the last line where failures occured highlighted.
+case. This will show you either the assert statement you got incorrect, or the line where
+an exception was encountered.
 
 ![](./images/test-highlight.png)
 
