@@ -327,6 +327,6 @@ or claims made about how code behaves!*
 ## TODO -- What needs to get done for this project
 - Add 3 commands to your ~/.vimrc file
 - Pull Git Repository into IntelliJ
-- Submit code to remote repository that passes all test cases
-- Show your TA
+- Use print statements and the IntelliJ Debugger to fix the code
+- Submit working code to remote repository that passes all test cases
 
