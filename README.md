@@ -292,11 +292,8 @@ The IntelliJ Debugger allows you to:
     - You may either *step* through execution or *continue* to the next breakpoint
 - Track the value of variables throughout execution & check if they are modified 
 
-The TAs in your lab section may have given a short overview of the debugger, but if you're still
-having a hard time, visit [this link](https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html)
-
-If you have other questions, don't hesitate to ask your TAs, use Google, or use IntelliJ's own
-Tip Center!
+If you're having a hard time with using the debugger, visit 
+[this link](https://www.jetbrains.com/help/idea/debugging-your-first-java-application.html)
 
 ## Part 3: The Scenario - "One person’s crappy software is another person’s full time job."
 Picture this: You land a great internship as a Freshman thanks to all the skills
@@ -311,6 +308,8 @@ like any other file (if you are interested, [check out this guide](http://rogerd
 
 IntelliJ has a great deal of support for exactly this! We can store a local version of our repository, and 
 push any changes to the remote repo easily!
+
+#### How to clone remote repo to local repo and manage it with IntelliJ
 
 1) Checkout a project from Version Control
 
@@ -351,6 +350,8 @@ You should use multiple methods to determine what's wrong:
 - JUnit Test Cases -- Try running them individually and debugging them in isolation!
 - Print Statements after writing examples in *BuggyUtilClient.java*
 - Reading through the code to see if it makes sense
+
+
 
 ### 3.3: Submit Working Code - "Talk is cheap. Show me the code."
 *TODO:* You should submit code that passes all test cases! 
