@@ -351,7 +351,60 @@ You should use multiple methods to determine what's wrong:
 - Print Statements after writing examples in *BuggyUtilClient.java*
 - Reading through the code to see if it makes sense
 
+#### How to run and debug the JUnit test cases
 
+1) Configure IntelliJ for JUnit
+
+![](./images/test-pre-import.png)
+
+You just need to hit ALT + ENTER and choose "Add JUnit4 to classpath". ALT + ENTER is your friend in IntelliJ :) 
+
+![](./images/test-resolve-import.png)
+
+2) Run all the test cases
+
+You can run all test cases by right clicking the test case file.
+
+![](./images/test-run-all.png)
+
+##### Note on test case results:
+- ![](./images/test-green.png) is good, because you passed all checks
+- ![](./images/test-yellow.png) means you got a wrong result in a test case
+- ![](./images/test-red.png) means an exception was encountered when running the case
+
+3) Run a particular test case
+
+You can also isolate a single test case and run only that one by right-clicking it.
+
+![](./images/test-run-one.png)
+![](./images/test-run-one-result.png)
+
+4) Find the line where it goes wrong
+
+Once the test case fails, you can pinpoint the exact issue by double-clicking the failed
+case. After that, you should see the last line where failures occured highlighted.
+
+![](./images/test-highlight.png)
+
+5) Set method and line breakpoints and start test case in Debug mode
+
+Set some breakpoints in the methods you suspect this test case has 
+touched, and then run the test case in Debug mode.
+
+![](./images/test-start-debugging.png)
+
+6) Continue stepping through the code and find the issue
+
+You can see the step-by-step execution of your code, as well as the values of variables
+and how they change.
+
+To move onto the next breakpoint sector, you have to resume the program.
+
+![](./images/test-step-button.png)
+
+7) Take advantage of the information you find, and just keep stepping!
+
+![](./images/test-middle-of-debugging.png)
 
 ### 3.3: Submit Working Code - "Talk is cheap. Show me the code."
 *TODO:* You should submit code that passes all test cases! 
