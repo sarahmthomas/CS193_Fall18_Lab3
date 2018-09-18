@@ -110,9 +110,6 @@ An Integrated Development Environment (IDE) describes applications that contain:
   For those of you in CS180, we expect that you have some very basic familiarity
   with the IntelliJ platform.
 
-  In the event that you haven't encountered this platform yet, or just need a
-  refresher, run through this link: TODO
-
 ## Part 2: Debugging Methods
 ![](./images/print_statements_meme.png)
 
