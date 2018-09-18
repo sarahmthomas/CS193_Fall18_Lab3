@@ -278,9 +278,38 @@ IntelliJ has a great deal of support for exactly this! We can store a local vers
 push any changes to the remote repo easily!
 
 //TODO: Add this info
+1) Checkout a project from Version Control
+
+![](./images/intellij_vc_checkout.png)
+
+2) Enter your credentials for GitHub using Auth Type: Password
+
+![](./images/intellij-github-signup.png)
+
+3) Select the correct repository to clone
+
+![](./images/intellij_checkout_repo.png)
+
+4) Make some changes to the documents
+
+![](./images/print_before.png)
+![](./images/print_after.png)
+
+5) Commit and push your changes
+
+![](./images/intellij_commit_button.png)
+![](./images/intellij_commit_dialog.png)
+
+6) Confirm you'd like to push changes
+
+![](./images/intellij_push_dialog.png)
+
+#### NOTE: Each time you open this project, make sure you PULL to make sure your local repository is up to date with the remote repository
+
+![](./images/intellij_pull_button.png)
+
 
 ### 3.2: Sleuthing for Bugs - "Beware of bugs in the above code; I have only proved it correct, not tried it."
-#### Pulling the repository from Version Control using IntelliJ
 *TODO:* You will be expected to find several bugs throughout the files *MathUtils.java* and *StringUtils.java*.
 All test cases should pass for your to receive full points. 
 
@@ -298,5 +327,6 @@ or claims made about how code behaves!*
 ## TODO -- What needs to get done for this project
 - Add 3 commands to your ~/.vimrc file
 - Pull Git Repository into IntelliJ
-- Submit code that passes all test cases to master branch
+- Submit code to remote repository that passes all test cases
+- Show your TA
 
