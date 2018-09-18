@@ -312,7 +312,6 @@ like any other file (if you are interested, [check out this guide](http://rogerd
 IntelliJ has a great deal of support for exactly this! We can store a local version of our repository, and 
 push any changes to the remote repo easily!
 
-//TODO: Add this info
 1) Checkout a project from Version Control
 
 ![](./images/intellij_vc_checkout.png)
