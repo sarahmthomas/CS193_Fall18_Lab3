@@ -211,8 +211,10 @@ statement of code is responsible for an unexpected output. For instance:
   Result after func3: The_Spanish_Inquisition
 ```
 
-This indicates there is something *very* wrong occurring within the code of func3, 
-and that we should begin tossing print statements into there, in order to see where our
+This indicates there is something *very* wrong occurring within the code of func3, since we are 
+getting some wild output.
+
+We should begin tossing print statements into there, in order to see where our
 logic may have gone astray.
 
 3) >"For some reason, all of my values are correct except for the first one, which is just 0"
