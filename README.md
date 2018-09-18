@@ -11,7 +11,7 @@
 
   Debugging is a process that is greatly supplemented by _order_ and _organization_.
 
-  One way to ensure this is to configure your tools to the ideal settings, and to
+  One way to ensure this is to configure your tools to the ideal settings and to
   take advantage of *YEARS* of gathered knowledge from the generations of computer 
   scientists/developers who preceded you. This wisdom can be found in textbooks,
   forums like Reddit, and in conversations with peers. 
@@ -22,7 +22,7 @@
 ### 1.1: Text Editors
 
   Text Editors (such as **Vim**, Pluma, nano, and ... ~~GNU Emacs~~) are very general in their abilities:
-  - You can read nearly any file BUT most this means you are forced to be generic
+  - You can read nearly any file BUT this means you are forced to be generic
   - They typically have a minimalistic design that minimizes CPU/Memory Impact
 
   For this course, we have decided to introduce the versatile Vim text editor.
@@ -69,7 +69,7 @@
   However, some commands you don't want to have to type _every time_. 
 
   For example, it's pretty normal to want line numbers whenever you open a file (for debugging/readability), BUT having to type 
-  `:set number` every time you run Vim is a huge time suck! How can we avoid this.
+  `:set number` every time you run Vim is a huge time suck! How can we avoid this?
 
   Well, your .vimrc (Vim Run Control) file controls what commands run when vim is invoked, and you can customize it to your heart's content. These commands are run _every time you open a new file_.
 
