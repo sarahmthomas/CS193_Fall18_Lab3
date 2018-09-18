@@ -181,6 +181,23 @@ the result after we performed mathematical operations!"*
   While we WERE calling func1-func3 properly, we did not store the values
 that they returned! They just went off into the void, and weren't reassigned to our result variable.
 
+Solved:
+
+  ```
+  int n := 99
+  results_list := []
+  for (i = 1; i < n; i++):
+    print("Index: " + i)
+    int result := i
+    result = func1(result, i) 
+    print("Result after func1: " + result)
+    result = func2(result, i)
+    print("Result after func2: " + result)
+    result = func3(result, i)
+    print("Result after func3: " + result)
+    results_list[i].append(result)
+  ```
+
 2) >"The output list is closer now, but there are still a lot of entries that seem to be incorrect!
 
 At this point, choose a couple relatively complex entries. Write out (in its entireity) all the
@@ -211,6 +228,22 @@ The naive answer would be to say you need only **10 fenceposts**, when in realit
 11 fenceposts total to enclose the final zone.
 
 Just like in that problem, we forgot to include the 0th index in our bounds. 
+
+Solved:
+  ```
+  int n := 99
+  results_list := []
+  for (i = 0; i < n; i++):
+    print("Index: " + i)
+    int result := i
+    result = func1(result, i) 
+    print("Result after func1: " + result)
+    result = func2(result, i)
+    print("Result after func2: " + result)
+    result = func3(result, i)
+    print("Result after func3: " + result)
+    results_list[i].append(result)
+  ```
 
 #### *Note on "The Wolf Fence Algorithm"*:
 Imagine you were given the task of finding the only wolf in Alaska! 
