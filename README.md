@@ -322,6 +322,7 @@ You should now see the main IntelliJ screen.
 1) Checkout a project from Version Control
 
 NOTE: If you did not close projects and end up on the main IntelliJ screen, you can also just go to **VCS --> Checkout from Version Control**
+
 You will want to be at the main IntelliJ screen  and select **Check out from Version Control --> GitHub** (Git is also acceptable).
 
 2) Enter your credentials for GitHub using Auth Type: Password
@@ -332,7 +333,7 @@ You will want to be at the main IntelliJ screen  and select **Check out from Ver
 
 ![](./images/intellij_checkout_repo.png)
 
-4) Make some changes to the documents
+4) Make some changes to the documents (don't worry about if it can run yet -- comments are fine too)
 
 ![](./images/print_before.png)
 ![](./images/print_after.png)
