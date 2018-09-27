@@ -319,11 +319,11 @@ You should now see the main IntelliJ screen.
 
 1) Checkout a project from Version Control
 
-**NOTE: If you just clone without letting IntelliJ configure everything for you, it's a pain in the butt to fix. Please let IntelliJ create everything for you! **
-
-NOTE: If you did not close projects and end up on the main IntelliJ screen, you can also just go to **VCS --> Checkout from Version Control**
-
 You will want to be at the main IntelliJ screen  and select **Check out from Version Control --> GitHub** (Git is also acceptable).
+
+NOTE: If you just clone without letting IntelliJ configure everything for you, it's a pain in the butt to fix. Please let IntelliJ create everything for you!
+
+ANOTHER NOTE: If you did not close projects and end up on the main IntelliJ screen, you can also just go to **VCS --> Checkout from Version Control**
 
 2) Enter your credentials for GitHub using Auth Type: Password
 
