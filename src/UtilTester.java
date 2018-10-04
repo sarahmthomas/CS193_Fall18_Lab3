@@ -58,7 +58,7 @@ public class UtilTester {
 
     @Test
     public void testLongUsername() {
-        assertEquals("mdecimus-meridius", StringUtils.makePurdueUsername("maximus", "mdecimus-meridius"));
+        assertEquals("mdecimus-meridius", StringUtils.makePurdueUsername("maximus", "decimus-meridius"));
     }
 
     @Test
